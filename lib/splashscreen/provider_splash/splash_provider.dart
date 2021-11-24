@@ -13,12 +13,12 @@ class SplashProvider with ChangeNotifier {
   SplashProvider(this.context) {
     startTimer();
   }
-  void _pindahKeMenu() {
-    Navigator.of(context).pushReplacementNamed('menu');
+  void _pindahKeDashboard() {
+    Navigator.of(context).pushReplacementNamed('dashboard');
   }
 
   Timer startTimer() {
     Duration _durasi = const Duration(seconds: 3);
-    return Timer(_durasi, _pindahKeMenu);
+    return Timer(_durasi, _pindahKeDashboard);
   }
 }

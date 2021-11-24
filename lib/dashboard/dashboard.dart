@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:uts_mopro2_19552011328/models/model_produk.dart';
-import 'package:uts_mopro2_19552011328/screens/menu/item_detail.dart';
-import 'package:uts_mopro2_19552011328/screens/menu/provider_menu/search_providers.dart';
+import 'package:uts_mopro2_19552011328/dashboard/item_detail.dart';
+import 'package:uts_mopro2_19552011328/dashboard/provider_dashboard/search_providers.dart';
 import 'package:provider/provider.dart';
 
 /**
 @author Ahmad Fauzy Khamarullah - 19552011328 - TIF RM 19 CID
  */
 
-/// ini adalah menu
+/// ini adalah Dashboard
 
-class MenuScreen extends StatelessWidget {
-  const MenuScreen({Key? key}) : super(key: key);
+class DashboardScreen extends StatelessWidget {
+  const DashboardScreen({Key? key}) : super(key: key);
 
   static final ModelProduk _modelProduk = ModelProduk();
 

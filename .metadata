@@ -3,8 +3,12 @@
 #
 # This file should be version controlled and should not be manually edited.
 
-version:
+version: 0.0.1
   revision: f4abaa0735eba4dfd8f33f73363911d63931fe03
   channel: stable
 
 project_type: app
+
+Ahmad Fauzy Khamarullah - 19552011328
+Sekolah Tinggi Teknologi Bandung
+TIF RM 19 CID

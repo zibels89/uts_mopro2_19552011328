@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uts_mopro2_19552011328/screens/splash/provider_splash/splash_provider.dart';
+import 'package:uts_mopro2_19552011328/splashscreen/provider_splash/splash_provider.dart';
 import 'package:provider/provider.dart';
 
 /**

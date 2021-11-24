@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:uts_mopro2_19552011328/screens/menu/menu.dart';
-import 'package:uts_mopro2_19552011328/screens/splash/splash.dart';
+import 'package:uts_mopro2_19552011328/dashboard/dashboard.dart';
+import 'package:uts_mopro2_19552011328/splashscreen/splash.dart';
 
 /**
 @author Ahmad Fauzy Khamarullah - 19552011328 - TIF RM 19 CID
@@ -23,10 +23,10 @@ class MyApp extends StatelessWidget {
       home: const SplashScreen(),
       onGenerateRoute: (settings) {
         switch (settings.name) {
-          case 'menu':
+          case 'dashboard':
             return MaterialPageRoute(
               builder: (_) {
-                return const MenuScreen();
+                return const DashboardScreen();
               },
             );
           default:
